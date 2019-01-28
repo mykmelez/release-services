@@ -2,7 +2,7 @@
 # See more at: https://github.com/garbas/pypi2nix
 #
 # COMMAND:
-#   pypi2nix -v -C /app/src/common/naming/../../../tmp/pypi2nix -V 3.7 -O ../../../nix/requirements_override.nix -e pytest-runner -e setuptools-scm -r requirements-dev.txt
+#   pypi2nix -v -C /tmp/release-services-bz4l3z4i/src/common/naming/../../../tmp/pypi2nix -V 3.7 -O ../../../nix/requirements_override.nix -e pytest-runner -e setuptools-scm -r requirements-dev.txt
 #
 
 { pkgs ? import <nixpkgs> {},
